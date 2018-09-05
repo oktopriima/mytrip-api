@@ -1,0 +1,20 @@
+package: github.com/oktopriima/mytrip-api
+import: 
+- package: github.com/gorilla/handlers
+  version: ^1.3.0
+- package: github.com/gorilla/mux
+  version: ^1.6.2
+- package: github.com/mmuflih/go-httplib
+  subpackages:
+  - httplib
+- package: github.com/google/uuid
+  version: ^0.2.0
+- package: github.com/huandu/facebook
+  version: ^2.3.0
+- package: github.com/go-sql-driver/mysql
+  version: ^1.3.0
+- package: gopkg.in/mgo.v2
+  subpackages:
+  - bson
+- package: github.com/spf13/viper
+  version: ^1.0.2
