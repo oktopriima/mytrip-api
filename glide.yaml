@@ -18,3 +18,6 @@ import:
   - bson
 - package: github.com/spf13/viper
   version: ^1.0.2
+- package: github.com/oktopriima/go-package
+  subpackages:
+  - library
