@@ -3,9 +3,12 @@
 > Simple API using Go
 
 ## Requirement
-```
+``` bash
 glide
-beego *
+
+# optional
+beego
+
 ```
 Please visit this [link](https://glide.sh/) for more information about glide
 
